@@ -42,6 +42,16 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\App.DAL\App.DAL.csproj">
+      <Project>{b2a1d404-ff29-4629-9ca4-42eb2ed1c37d}</Project>
+      <Name>App.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APP.Entities\App.Entities.csproj">
+      <Project>{164a06e3-1c8b-49de-8193-93b2fe6a97c7}</Project>
+      <Name>App.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

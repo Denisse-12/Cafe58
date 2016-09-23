@@ -208,6 +208,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\App.BLL\App.BLL.csproj">
+      <Project>{1bb3c48e-7ef6-4786-99f9-90902da058d5}</Project>
+      <Name>App.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APP.Entities\App.Entities.csproj">
+      <Project>{164a06e3-1c8b-49de-8193-93b2fe6a97c7}</Project>
+      <Name>App.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
