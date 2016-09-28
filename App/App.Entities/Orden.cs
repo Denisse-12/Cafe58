@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.ComponentModel.DataAnnotations;
 namespace App.Entities
 {
     public class Orden
-    {
-        public int ID { get; set; }
-        public int ID_Alumno { get; set; }
+    {   
+        [Key]
+        public int Id { get; set; }
+        public int IdAlumno { get; set; }
         public DateTime Fecha { get; set; }
-        public Double Costo_Total { get; set; }
+        public Double CostoTotal { get; set; }
         public string Estatus { get; set; }
 
     }
