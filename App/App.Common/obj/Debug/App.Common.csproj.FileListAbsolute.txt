@@ -1,0 +1,10 @@
+C:\Users\Sala12\Documents\Cafe58\AppTemplate\AppTemplate\App.Common\bin\Debug\App.Common.dll
+C:\Users\Sala12\Documents\Cafe58\AppTemplate\AppTemplate\App.Common\bin\Debug\App.Common.pdb
+C:\Users\Sala12\Documents\Cafe58\AppTemplate\AppTemplate\App.Common\obj\Debug\App.Common.csprojResolveAssemblyReference.cache
+C:\Users\Sala12\Documents\Cafe58\AppTemplate\AppTemplate\App.Common\obj\Debug\App.Common.dll
+C:\Users\Sala12\Documents\Cafe58\AppTemplate\AppTemplate\App.Common\obj\Debug\App.Common.pdb
+C:\Users\Sala12\Documents\Cafe58\App\App.Common\bin\Debug\App.Common.dll
+C:\Users\Sala12\Documents\Cafe58\App\App.Common\bin\Debug\App.Common.pdb
+C:\Users\Sala12\Documents\Cafe58\App\App.Common\obj\Debug\App.Common.dll
+C:\Users\Sala12\Documents\Cafe58\App\App.Common\obj\Debug\App.Common.pdb
+C:\Users\Sala12\Documents\Cafe58\App\App.Common\obj\Debug\App.Common.csprojResolveAssemblyReference.cache
