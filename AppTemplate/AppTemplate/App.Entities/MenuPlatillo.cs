@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace App.Entities
 {
-    class MenuPlatillo
+    class Menuplatillo
     {
     }
 }
