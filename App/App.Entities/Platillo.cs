@@ -7,8 +7,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace App.Entities
 {
-    public class Platillo
+    class Platillo
     {
+
         [Key]
 
         public int Id { get; set; }
@@ -17,5 +18,9 @@ namespace App.Entities
         public double Numero { get; set; }
         public Boolean Beca { get; set; }
 
+        public virtual ICollection<Ingredientes> Ingredientes;
+        public virtual ICollection<OrdenPlatillo> OrdenPlatillos; 
+
+        
     }
 }

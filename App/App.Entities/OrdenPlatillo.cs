@@ -7,13 +7,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace App.Entities
 {
-    class Ingredientes
+    class OrdenPlatillo
     {
-
         [Key]
         public int Id { get; set; }
-        public string Nombre { get; set; }
+        public int IdOrden { get; set; }
         public int IdPlatillo { get; set; }
-        public Platillo Platillo { get; set; }
     }
 }

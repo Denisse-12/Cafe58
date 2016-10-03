@@ -7,13 +7,16 @@ using System.ComponentModel.DataAnnotations;
 
 namespace App.Entities
 {
-    class Ingredientes
+    class Usuario
     {
-
         [Key]
+
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public int IdPlatillo { get; set; }
-        public Platillo Platillo { get; set; }
+        public string Apellido { get; set; }
+        public DateTime FechaNac { get; set; }
+        public string TipoUsuario { get; set; }
+        public string UserName { get; set; }
+        public string Password { get; set; }
     }
 }

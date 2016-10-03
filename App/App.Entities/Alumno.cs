@@ -20,7 +20,7 @@ namespace App.Entities
         public DateTime FechaNac { get; set; }
         public string Grupo { get; set; }
         public string Password { get; set; }
-        
 
+        public virtual ICollection<Orden> Orden;
     }
 }

@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+
 namespace App.Entities
 {
-    public class Menu
+    class Menu
     {
         [Key]
         public int Id { get; set; }
         public DateTime Fecha { get; set; }
 
+        public virtual ICollection<Platillo> Platillos;
     }
 }
