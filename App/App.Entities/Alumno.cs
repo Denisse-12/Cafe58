@@ -9,6 +9,10 @@ namespace App.Entities
 {
     public class Alumno
     {
+        public Alumno()
+        {
+        this.Ordenes = new HashSet<Orden> ();
+        }
         [Key]
         public int Id { get; set; }
         public string Nombre { get; set; }
@@ -21,6 +25,6 @@ namespace App.Entities
         public string Grupo { get; set; }
         public string Password { get; set; }
 
-        public virtual ICollection<Orden> Orden;
+        public virtual ICollection<Orden> Ordenes { get; set; }
     }
 }

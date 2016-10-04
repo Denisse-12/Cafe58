@@ -7,12 +7,18 @@ using System.ComponentModel.DataAnnotations;
 
 namespace App.Entities
 {
-    class Menu
+   public class Menu
     {
+        public Menu()
+       {
+           this.Platillos = new HashSet<Platillo>();
+       }
+
+
         [Key]
         public int Id { get; set; }
         public DateTime Fecha { get; set; }
 
-        public virtual ICollection<Platillo> Platillos;
+        public virtual ICollection<Platillo> Platillos { get; set; }
     }
 }

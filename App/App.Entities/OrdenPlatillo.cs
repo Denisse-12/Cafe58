@@ -7,11 +7,16 @@ using System.ComponentModel.DataAnnotations;
 
 namespace App.Entities
 {
-    class OrdenPlatillo
+    public class OrdenPlatillo
     {
         [Key]
         public int Id { get; set; }
         public int IdOrden { get; set; }
+        public Orden Orden { get; set; }
         public int IdPlatillo { get; set; }
+        public Platillo Platillo { get; set; }
+
+        public virtual ICollection<Platillo> Platillos { get; set; }
+
     }
 }

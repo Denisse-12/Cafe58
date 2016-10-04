@@ -8,6 +8,11 @@ namespace App.Entities
 {
     public class Orden
     {   
+        public Orden()
+        {
+        this.OrdenPlatillos = new HashSet <OrdenPlatillo>();
+    }
+
         [Key]
         public int Id { get; set; }
         public int IdAlumno { get; set; }
@@ -16,6 +21,6 @@ namespace App.Entities
         public Double CostoTotal { get; set; }
         public string Estatus { get; set; }
 
-        public virtual ICollection<OrdenPlatillo> OrdenPlatillo;
+        public virtual ICollection<OrdenPlatillo>OrdenPlatillos { get; set; }
     }
 }

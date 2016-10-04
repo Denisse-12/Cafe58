@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace App.Entities
 {
-    class Ingredientes
+    public class Ingredientes
     {
 
         [Key]
@@ -15,5 +15,7 @@ namespace App.Entities
         public string Nombre { get; set; }
         public int IdPlatillo { get; set; }
         public Platillo Platillo { get; set; }
+
+
     }
 }

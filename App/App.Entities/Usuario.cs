@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace App.Entities
 {
-    class Usuario
+    public class Usuario
     {
         [Key]
 
