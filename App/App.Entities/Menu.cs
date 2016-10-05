@@ -11,7 +11,7 @@ namespace App.Entities
     {
         public Menu()
        {
-           this.Platillos = new HashSet<Platillo>();
+           this.MenuPlatillos = new HashSet<MenuPlatillo>();
        }
 
 
@@ -19,6 +19,6 @@ namespace App.Entities
         public int Id { get; set; }
         public DateTime Fecha { get; set; }
 
-        public virtual ICollection<Platillo> Platillos { get; set; }
+        public virtual ICollection<MenuPlatillo> MenuPlatillos { get; set; }
     }
 }

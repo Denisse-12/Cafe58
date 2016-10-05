@@ -19,7 +19,8 @@ namespace App.Entities
         public Boolean Beca { get; set; }
 
         public virtual ICollection<Ingredientes> Ingredientes { get; set; }
-        public virtual ICollection<OrdenPlatillo> OrdenPlatillos { get; set; }
+        public virtual ICollection<MenuPlatillo> MenuPlatillos { get; set; }
+
 
         
     }
