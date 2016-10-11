@@ -20,8 +20,16 @@ namespace App.DAL
 
        public AppDBContext() : base("Cafe58Conn")
        {
-
+             this.Configuration.ValidateOnSaveEnabled = false;
        }
+
+
+       static AppDBContext()
+   {
+           DbConfiguration.SetConfiguration(new MySql.Data.Entity.MySqlEFConfiguration());
+   }
+
+
 
        public DbSet<Alumno> Alumnos { get; set; }
        public DbSet<Ingredientes> Ingredientes { get; set; }
