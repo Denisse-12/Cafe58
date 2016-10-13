@@ -31,10 +31,18 @@ namespace App.DAL
             _Contexto.SaveChanges();
 
         }
-
+//select * front Alumno orden by nocontrol
         public List<Alumno> TraerTodo()
         {
             return _Contexto.Alumnos.OrderBy(x => x.NoControl).ToList();
+
         }
+        //select * from alumno where Id = 3
+        public Alumno TraerId( int id)
+        {
+            return _Contexto.Alumnos.FirstOrDefault(x => x.Id == id);
+        }
+    
+
     }
 }
