@@ -32,6 +32,9 @@ namespace App.DAL
 
         }
 
-
+        public List<Alumno> TraerTodo()
+        {
+            return _Contexto.Alumnos.OrderBy(x => x.NoControl).ToList();
+        }
     }
 }
