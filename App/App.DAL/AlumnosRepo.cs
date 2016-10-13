@@ -7,7 +7,7 @@ using App.Entities;
 
 namespace App.DAL
 {
-    class AlumnosRepo
+   public  class AlumnosRepo
     {
 
         private AppDBContext _Contexto ;
@@ -38,7 +38,7 @@ namespace App.DAL
 
         }
         //select * from alumno where Id = 3
-        public Alumno TraerId( int id)
+        public Alumno TraerPorId( int id)
         {
             return _Contexto.Alumnos.FirstOrDefault(x => x.Id == id);
         }
