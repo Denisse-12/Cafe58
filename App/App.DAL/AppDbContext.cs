@@ -35,7 +35,7 @@ namespace App.DAL
        public DbSet<Ingredientes> Ingredientes { get; set; }
        public DbSet<Menu> Menus { get; set;  }
        public DbSet<MenuPlatillo> MenuPlatillos { get; set; }
-       public DbSet<Orden> Ordenes { get; set; }
+       public DbSet<OrdenRepo> Ordenes { get; set; }
        public DbSet<OrdenPlatillo> OrdenesPlatillos { get; set; }
        public DbSet<Platillo> Platillos { get; set; }
        public DbSet<Usuario> Usuarios { get; set;}
