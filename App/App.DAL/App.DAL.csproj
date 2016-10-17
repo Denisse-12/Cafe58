@@ -57,6 +57,7 @@
     <Compile Include="AlumnosRepo.cs" />
     <Compile Include="AppDbContext.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="MenuRepo.cs" />
     <Compile Include="Migrations\201610060119263_init.cs" />
     <Compile Include="Migrations\201610060119263_init.Designer.cs">
       <DependentUpon>201610060119263_init.cs</DependentUpon>
