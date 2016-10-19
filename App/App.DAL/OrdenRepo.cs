@@ -9,38 +9,39 @@ namespace App.DAL
 {
    public  class OrdenRepo
     {
-        private AppDBContext _contexto;
+        private AppDBContext _Contexto;
 
         public OrdenRepo()
         {
-            _contexto = new AppDBContext();
+            _Contexto = new AppDBContext();
 
         }
 
         public void Agregar(Orden orden)
         {
-            _contexto.Ordenes.Add(orden);
-            _contexto.SaveChanges();
+            _Contexto.Ordenes.Add(orden);
+            _Contexto.SaveChanges();
 
 
         }
 
-        public void Borra(Orden orden )
+        public void Borrar(Orden orden)
         {
-            _contexto.Ordenes.Remove(orden);
-            _contexto.SaveChanges();
+            _Contexto.Ordenes.Remove(orden);
+            _Contexto.SaveChanges();
 
 
         }
 
-        public List<Orden> TraerTodo()
+        public List<Alumno> TraerTodo()
         {
-            return _contexto.Ordenes.OrderBy(x => x.Id).ToList();
-        }
+            return _Contexto.Alumnos.OrderBy(x => x.NoControl).ToList();
 
-        public Orden TrearPorId (int id)
+        }
+        //select * from alumno where Id = 3
+        public Alumno TraerPorId(int id)
         {
-            return _contexto.Ordenes.FirstOrDefault(x => Id == id);
+            return _Contexto.Alumnos.FirstOrDefault(x => x.Id == id);
         }
     }
 }
