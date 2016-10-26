@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="AlumnoBll.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="MenuBll.cs" />
     <Compile Include="OrdenBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioBll.cs" />
