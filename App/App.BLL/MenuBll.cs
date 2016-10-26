@@ -8,7 +8,7 @@ using App.DAL;
 
 namespace App.BLL
 {
-    class MenuBll
+    public class MenuBll
     {
         private MenuRepo _menuRepo;
 
