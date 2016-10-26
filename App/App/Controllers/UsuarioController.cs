@@ -33,5 +33,7 @@ namespace App.Controllers
             _usuarioBll.Agregar(_usuarioEntity);
             return View();
         }
+
+        
     }
 }
