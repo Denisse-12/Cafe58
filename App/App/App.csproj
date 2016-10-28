@@ -159,6 +159,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\UnityMvcActivator.cs" />
+    <Compile Include="Controllers\AgregarAlumnoController.cs" />
     <Compile Include="Controllers\AlumnosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
@@ -213,6 +214,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Alumnos\Index.cshtml" />
     <Content Include="Views\Orden\Orden.cshtml" />
+    <Content Include="Views\AgregarAlumno\AgregarAlumno.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Filters\" />
