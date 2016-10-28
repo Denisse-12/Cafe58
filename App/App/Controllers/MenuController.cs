@@ -8,7 +8,7 @@ using App.Entities;
 
 namespace App.Controllers
 {
-    public class MenuController
+    public class MenuController : Controller
     {
         private MenuBll _menuBll;
         private Menu _menuEntity;

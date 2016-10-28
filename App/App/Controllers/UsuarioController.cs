@@ -8,7 +8,7 @@ using App.Entities;
 
 namespace App.Controllers
 {
-    public class UsuarioController
+    public class UsuarioController : Controller
     {
         private UsuarioBll _usuarioBll;
         private Usuario _usuarioEntity;
